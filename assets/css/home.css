@@ -1,0 +1,100 @@
+body {
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: sans-serif;
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    display: inline-block;
+    color: grey;
+}
+
+li{
+    background-color:white ;
+    padding: 4%;
+    margin: 2%;
+}
+
+li:hover {
+    background-color: grey;
+    box-shadow: 0px 0px 3px 3px grey;
+}
+#title-icon {
+    font-size: 1.75rem;
+}
+.fa-address-book {
+    color: #e36387;
+}
+.fa-phone {
+    color: #111d5e;
+}
+
+#c-name , 
+#c-phone {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #111d5e;
+}
+
+#container {
+    width: 611px;
+    height: 465px;
+    padding: 3%;
+    margin-top: 5%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #a6dcef;
+}
+
+#list-container {
+    margin-left: 3%;
+    width: 80%;
+    height: 210px;
+    overflow-y: scroll;
+    margin-bottom: 10%;
+}
+
+#c-phone {
+    float: right;
+}
+
+#top-section {
+    margin-left: 140px;
+    margin-top: -20px;
+}
+
+.form-input {
+    margin-left: 12%;
+    width: 70%;
+    height: 30px;
+    border: none;
+    margin-bottom: 2%;
+}
+
+.form-input:hover {
+    background-color: goldenrod;
+    box-shadow: 0px 0px 2px gray;
+}
+
+.btn {
+    background-color: #ddf3f5;
+    margin-left: 12%;
+    width: 70%;
+    height: 40px;
+    border: 1px solid white;
+}
+.btn:hover {
+    background-color: lightgray;
+    opacity: 75%;
+    box-shadow: 0px 0px 2px 2px whitesmoke;
+}
+
+#delete-link {
+    float: right;
+    color: red;
+    text-decoration: none;
+}
